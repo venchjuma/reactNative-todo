@@ -3,11 +3,6 @@ import {KeyboardAvoidingView, StyleSheet, Text, View, TextInput, TouchableOpacit
 import Task from './Task';
 
 export default function App() {
-const [theme, setTheme] = useState('light');
-const themeToggler = () => {
-  theme === 'light' ? setTheme('dark') : setTheme()
-}
-
   const [task, setTask] = useState();
   const [taskItems, setTaskItems] = useState([]);
 
