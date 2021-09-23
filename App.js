@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import {KeyboardAvoidingView, StyleSheet, Text, View, TextInput, TouchableOpacity, Keyboard, ScrollView, Platform } from 'react-native';
-import Task from './components/Task';
+import Task from './Task';
 
 export default function App() {
 const [theme, setTheme] = useState('light');
